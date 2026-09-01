@@ -37,6 +37,9 @@ h2 {
 /* -------------------- CARD LAYOUT -------------------- */
 
 .card {
+	background-color: var(--pico-card-background-color, #ffffff);
+color: var(--pico-color, #373c44);
+border: 1px solid var(--pico-muted-border-color, #e7eaf0);
   display: flex;
   flex-direction: column;
   justify-content: center;
