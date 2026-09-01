@@ -1,0 +1,25 @@
+body {
+	background:lavender;
+}
+h1 {
+	text-align: center;
+}
+#image {
+	width:50rem;
+	display:block;
+	margin:auto;
+}
+#tagline-1{
+	text-align:center;
+	font-family:courier;
+	font-size:1.5rem;
+}
+#tagline-2{
+	text-align:center;
+	font-family:courier;
+	font-size:1.5rem;
+}
+#button-1{
+	display:block;
+	margin:auto;
+}
