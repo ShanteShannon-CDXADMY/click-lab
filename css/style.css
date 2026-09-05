@@ -6,8 +6,8 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-size: 3.5rem;
-  color: gold;
-  font-family: courier;
+  color: black;
+  font-family: cinzel;
 }
 
 h2 {
@@ -19,8 +19,8 @@ h2 {
 
 /* -------------------- IMAGES -------------------- */
 
-#image1, #image2, #image3 {
-  width: 25rem;
+#defaultImage1, #defaultImage2, #defaultImage3 {
+  width:25rem;
   height: auto;
   border: 5px solid white;
   display: block; /* default image shows first */
@@ -37,34 +37,33 @@ h2 {
 /* -------------------- CARD LAYOUT -------------------- */
 
 .card {
-	background-color: var(--pico-card-background-color, #ffffff);
-color: var(--pico-color, #373c44);
-border: 1px solid var(--pico-muted-border-color, #e7eaf0);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  /* border-radius: 5; */
 }
 
 /* -------------------- BUTTONS -------------------- */
 
 .choiceList {
   display: flex;
-  gap: 1rem;
+  gap: 5rem;
   width: 15rem;
-  padding: .5rem 5rem;
+  padding: 15rem 15rem;
   justify-content: center;
 }
 
 button {
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
+  font-size: 1rem;
+  padding: .5rem .5rem;
   width: 10rem;
   font-family: courier;
   border-radius: 0.5rem;
   border: 2px solid white;
   cursor: pointer;
+  top:24px;
 }
 
 /* -------------------- TAGLINE -------------------- */
@@ -92,7 +91,7 @@ footer {
   display: flex;
   flex-direction:column;
   justify-content: center;
-  gap: 2rem;
+  gap: .5rem;
   margin-bottom: 1rem;
 }
 
