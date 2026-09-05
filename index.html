@@ -1,108 +1,108 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Test Your Knowledge</title>
-<link rel="icon" href="favicon.jpg" type="image/jpg">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
-
-  <link rel="stylesheet" href="css/flex.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/card.css">
-  <link rel="stylesheet" href="css/choice-list.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="script.js" defer></script>
-</head>
-
-<body>
-<main class="quiz-container">
-
-  <audio id="correctSound" src="correct.mp3"></audio>
-  <audio id="wrongSound" src="wrong.mp3"></audio>
-
-  <h1>Do You Know??</h1>
-  <p id="scoreboard">Score: 0</p>
-
-  <!-- ⭐ QUESTION 1 -->
-  <div class="card">
-    <h2>Question 1</h2>
-    <p id="tagline1">Which ancient civilization originated popcorn?</p>
-
-    <!-- Default Image -->
-    <img id="defaultImage1" src="popcorn.jpg">
-
-    <!-- Wrong Image -->
-    <img id="wrongImage1" src="wrong.png" style="display:none;">
-
-    <!-- Correct Image -->
-    <img id="correctImage1" src="peru.jpg" style="display:none;">
-
-    <div class="flex-row">
-      <button id="q1wrong1">Ancient Greece</button>
-      <button id="q1correct">Ancient Peru</button>
-      <button id="q1wrong2">Ancient Maya</button>
-    </div>
-
-    <div id="card1">
-    <p id="q1correctText">Correct! Popcorn originated in Ancient Peru.</p>
-    <p id="q1wrongText">Incorrect! Try again.</p>
-	</div>
-  </div>
-
-  <!-- ⭐ QUESTION 2 -->
-  <div class="card">
-    <h2>Question 2</h2>
-    <p id="tagline2">What is the only U.S. state typed using one row of a QWERTY keyboard?</p>
-
-    <img id="defaultImage2" src="qwerty.jpg">
-    <img id="wrongImage2" src="wrong.jpg" style="display:none;">
-    <img id="correctImage2" src="alaska.png" style="display:none;">
-
-    <div class="flex-row">
-      <button id="q2wrong1">Texas</button>
-      <button id="q2wrong2">North Dakota</button>
-      <button id="q2correct">Alaska</button>
-    </div>
-<div id="card2">
-    <p id="q2correctText">Correct! Alaska is typed using only the middle row.</p>    <p id="q2wrongText">Incorrect! Try again.</p>
-</div>
-  </div>
-
-  <!-- ⭐ QUESTION 3 -->
-  <div class="card">
-    <h2>Question 3</h2>
-    <p id="tagline3">Which planet has the most moons?</p>
-
-    <img id="defaultImage3" src="moon.png">
-    <img id="wrongImage3" src="wrong.png" style="display:none;">
-    <img id="correctImage3" src="saturn.jpg" style="display:none;">
-
-    <div class="flex-row">
-      <button id="q3wrong1">Jupiter</button>
-      <button id="q3wrong2">Neptune</button>
-      <button id="q3correct">Saturn</button>
-    </div>
-<div id="card3">
-    <p id="q3correctText">Correct! Saturn has the most moons.</p>
-    <p id="q3wrongText">Incorrect! Try again.</p>
-	</div>
-  </div>
-
-</main>
-
-<footer class="site-footer">
-  <div class="footer-nav">
-    <h3>Learn More</h3>
-    <a href="https://www.history.com/articles/a-history-of-popcorn">Popcorn Origin</a>
-    <a href="https://thefactfile.org/alaska-facts/">The Fact File</a>
-    <a href="https://www.skyatnightmagazine.com/space-science/which-planet-has-most-moons">Sky At Night</a>
-
-    <h3>Meet The Creator</h3>
-    <a href="meet.html">Meet the Creator</a>
-  </div>
-  <p>© 2026 Shante Shannon</p>
-</footer>
-
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Test Your Knowledge</title>
+		<link rel="icon" href="favicon.jpg" type="image/jpg">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+		
+		<link rel="stylesheet" href="css/flex.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/card.css">
+		<link rel="stylesheet" href="css/choice-list.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="script.js" defer></script>
+	</head>
+	
+	<body>
+		<main class="quiz-container">
+			
+			<audio id="correctSound" src="correct.mp3"></audio>
+			<audio id="wrongSound" src="wrong.mp3"></audio>
+			
+			<h1>Do You Know??</h1>
+			<p id="scoreboard">Score: 0</p>
+			
+			<!--  QUESTION 1 -->
+			<div class="card">
+				<h2>Question 1</h2>
+				<p id="tagline1">Which ancient civilization originated popcorn?</p>
+				
+				<!-- Default Image -->
+				<img id="defaultImage1" src="popcorn.jpg">
+				
+				<!-- Wrong Image -->
+				<img id="wrongImage1" src="wrong.png" style="display:none;">
+				
+				<!-- Correct Image -->
+				<img id="correctImage1" src="peru.jpg" style="display:none;">
+				
+				<div class="flex-row">
+					<button id="q1wrong1">Ancient Greece</button>
+					<button id="q1correct">Ancient Peru</button>
+					<button id="q1wrong2">Ancient Maya</button>
+				</div>
+				
+				<div id="card1">
+					<p id="q1correctText">Correct! Popcorn originated in Ancient Peru.</p>
+					<p id="q1wrongText">Incorrect! Try again.</p>
+				</div>
+			</div>
+			
+			<!--  QUESTION 2 -->
+			<div class="card">
+				<h2>Question 2</h2>
+				<p id="tagline2">What is the only U.S. state typed using one row of a QWERTY keyboard?</p>
+				
+				<img id="defaultImage2" src="qwerty.jpg">
+				<img id="wrongImage2" src="wrong.jpg" style="display:none;">
+				<img id="correctImage2" src="alaska.png" style="display:none;">
+				
+				<div class="flex-row">
+					<button id="q2wrong1">Texas</button>
+					<button id="q2wrong2">North Dakota</button>
+					<button id="q2correct">Alaska</button>
+				</div>
+				<div id="card2">
+					<p id="q2correctText">Correct! Alaska is typed using only the middle row.</p>    <p id="q2wrongText">Incorrect! Try again.</p>
+				</div>
+			</div>
+			
+			<!--  QUESTION 3 -->
+			<div class="card">
+				<h2>Question 3</h2>
+				<p id="tagline3">Which planet has the most moons?</p>
+				
+				<img id="defaultImage3" src="moon.png">
+				<img id="wrongImage3" src="wrong.png" style="display:none;">
+				<img id="correctImage3" src="saturn.jpg" style="display:none;">
+				
+				<div class="flex-row">
+					<button id="q3wrong1">Jupiter</button>
+					<button id="q3wrong2">Neptune</button>
+					<button id="q3correct">Saturn</button>
+				</div>
+				<div id="card3">
+					<p id="q3correctText">Correct! Saturn has the most moons.</p>
+					<p id="q3wrongText">Incorrect! Try again.</p>
+				</div>
+			</div>
+			
+		</main>
+		
+		<footer class="site-footer">
+			<div class="footer-nav">
+				<h3>Learn More</h3>
+				<a href="https://www.history.com/articles/a-history-of-popcorn">Popcorn Origin</a>
+				<a href="https://thefactfile.org/alaska-facts/">The Fact File</a>
+				<a href="https://www.skyatnightmagazine.com/space-science/which-planet-has-most-moons">Sky At Night</a>
+				
+				<h3>Meet The Creator</h3>
+				<a href="meet.html">Meet the Creator</a>
+			</div>
+			<p>© 2026 Shante Shannon</p>
+		</footer>
+		
+	</body>
 </html>
