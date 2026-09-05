@@ -1,5 +1,4 @@
 # My Project
-
 # click-lab
 ![My wireframe](wireframe.png)
 
