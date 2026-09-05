@@ -47,7 +47,7 @@ q1wrong1.addEventListener("click", () => {
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-  score--;
+  score0
   updateScoreboard();
 });
 
