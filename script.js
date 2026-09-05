@@ -30,6 +30,7 @@ q1correct.addEventListener("click", () =>{
   defaultImage1.alt = "correct image";
   q1correctText.style.display = "block";
   q1wrongText.style.display = "none";
+  q1correctText.style.color="green";
   correctSound.pause();
   correctSound.currentTime = 0;
   correctSound.play();
@@ -42,6 +43,7 @@ q1wrong1.addEventListener("click", () => {
   defaultImage1.alt = "wrong image";
   q1wrongText.style.display = "block";
   q1correctText.style.display = "none";
+  q1wrongText.style.color="red";
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
@@ -54,6 +56,7 @@ q1wrong2.addEventListener("click", () => {
   defaultImage1.alt = "wrong image";
   q1wrongText.style.display = "block";
   q1correctText.style.display = "none";
+  q1wrongText.style.color="red";
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
@@ -80,6 +83,7 @@ q2correct.addEventListener("click", () =>{
   defaultImage2.alt = "correct image";
   q2correctText.style.display = "block";
   q2wrongText.style.display = "none";
+  q2correctText.style.color="green";
   correctSound.pause();
   correctSound.currentTime = 0;
   correctSound.play();
@@ -88,10 +92,11 @@ q2correct.addEventListener("click", () =>{
 });
 
 q2wrong1.addEventListener("click", () => {
-  defaultImage2.src ="wrong.jpg";
+  defaultImage2.src ="wrong.png";
   defaultImage2.alt = "wrong image";
   q2wrongText.style.display = "block";
   q2correctText.style.display = "none";
+  q2wrongText.style.color="red";
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
@@ -100,10 +105,11 @@ q2wrong1.addEventListener("click", () => {
 });
 
 q2wrong2.addEventListener("click", () => {
-  defaultImage2.src ="wrong.jpg";
+  defaultImage2.src ="wrong.png";
   defaultImage2.alt = "wrong image";
   q2wrongText.style.display = "block";
   q2correctText.style.display = "none";
+  q2wrongText.style.color="red";
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
@@ -112,7 +118,7 @@ q2wrong2.addEventListener("click", () => {
 });
 
 // ======================================================
-// ⭐ QUESTION 3 (same format as Q1)
+// ⭐ QUESTION 3
 // ======================================================
 let defaultImage3 = document.getElementById("defaultImage3");
 let q3wrongText = document.getElementById("q3wrongText");
@@ -130,6 +136,7 @@ q3correct.addEventListener("click", () =>{
   defaultImage3.alt = "correct image";
   q3correctText.style.display = "block";
   q3wrongText.style.display = "none";
+  q3correctText.style.color="green";
   correctSound.pause();
   correctSound.currentTime = 0;
   correctSound.play();
@@ -142,6 +149,7 @@ q3wrong1.addEventListener("click", () => {
   defaultImage3.alt = "wrong image";
   q3wrongText.style.display = "block";
   q3correctText.style.display = "none";
+  q3wrongText.style.color="red";
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
@@ -154,6 +162,7 @@ q3wrong2.addEventListener("click", () => {
   defaultImage3.alt = "wrong image";
   q3wrongText.style.display = "block";
   q3correctText.style.display = "none";
+  q3wrongText.style.color="red";
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
