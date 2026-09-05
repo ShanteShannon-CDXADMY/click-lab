@@ -1,7 +1,7 @@
 .choiceList {
   display: flex;
   gap: 1rem;
-  width: 15rem;
-  padding: .5rem 5rem;
+  width: 10rem;
+  padding: 2rem 15rem;
   justify-content: center;
 }

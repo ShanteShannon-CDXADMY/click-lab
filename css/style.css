@@ -8,6 +8,7 @@ h1 {
   font-size: 3.5rem;
   color: black;
   font-family: cinzel;
+  text-shadow: 2px 3px white;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
   font-size: 2rem;
   color: black;
   text-align: center;
+  font-family:comic;
 }
 
 /* -------------------- IMAGES -------------------- */
@@ -47,23 +49,23 @@ h2 {
 
 /* -------------------- BUTTONS -------------------- */
 
-.choiceList {
-  display: flex;
-  gap: 5rem;
-  width: 15rem;
-  padding: 15rem 15rem;
-  justify-content: center;
-}
+/* .choiceList { */
+  /* display: flex; */
+  /* gap: 5rem; */
+  /* width: 15rem; */
+  /* padding: 15rem 15rem; */
+  /* justify-content: center; */
+/* } */
 
 button {
-  font-size: 1rem;
-  padding: .5rem .5rem;
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
   width: 10rem;
   font-family: courier;
   border-radius: 0.5rem;
   border: 2px solid white;
   cursor: pointer;
-  top:24px;
+  margin-top:25px;
 }
 
 /* -------------------- TAGLINE -------------------- */
