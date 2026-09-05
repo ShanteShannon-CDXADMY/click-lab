@@ -1,11 +1,8 @@
-// ======================================================
-// ⭐ GLOBAL SOUND ELEMENTS
-// ======================================================
 let correctSound = document.getElementById("correctSound");
 let wrongSound = document.getElementById("wrongSound");
 
 // ======================================================
-// ⭐ SCORE TRACKING
+// SCORE
 // ======================================================
 let score = 0;
 let scoreboard = document.getElementById("scoreboard");
@@ -15,7 +12,7 @@ function updateScoreboard() {
 }
 
 // ======================================================
-// ⭐ QUESTION 1 (your original format, kept EXACTLY)
+//  QUESTION 1
 // ======================================================
 let defaultImage1 = document.getElementById("defaultImage1");
 let q1wrongText = document.getElementById("q1wrongText");
@@ -31,14 +28,11 @@ q1correctText.style.display = "none";
 q1correct.addEventListener("click", () =>{
   defaultImage1.src="peru.jpg";
   defaultImage1.alt = "correct image";
-
   q1correctText.style.display = "block";
   q1wrongText.style.display = "none";
-
   correctSound.pause();
   correctSound.currentTime = 0;
   correctSound.play();
-
   score++;
   updateScoreboard();
 });
@@ -46,14 +40,11 @@ q1correct.addEventListener("click", () =>{
 q1wrong1.addEventListener("click", () => {
   defaultImage1.src ="wrong.png";
   defaultImage1.alt = "wrong image";
-
   q1wrongText.style.display = "block";
   q1correctText.style.display = "none";
-
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-
   score--;
   updateScoreboard();
 });
@@ -61,14 +52,11 @@ q1wrong1.addEventListener("click", () => {
 q1wrong2.addEventListener("click", () => {
   defaultImage1.src ="wrong.png";
   defaultImage1.alt = "wrong image";
-
   q1wrongText.style.display = "block";
   q1correctText.style.display = "none";
-
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-
   score--;
   updateScoreboard();
 });
@@ -90,14 +78,11 @@ q2correctText.style.display = "none";
 q2correct.addEventListener("click", () =>{
   defaultImage2.src="alaska.png";
   defaultImage2.alt = "correct image";
-
   q2correctText.style.display = "block";
   q2wrongText.style.display = "none";
-
   correctSound.pause();
   correctSound.currentTime = 0;
   correctSound.play();
-
   score++;
   updateScoreboard();
 });
@@ -105,14 +90,11 @@ q2correct.addEventListener("click", () =>{
 q2wrong1.addEventListener("click", () => {
   defaultImage2.src ="wrong.jpg";
   defaultImage2.alt = "wrong image";
-
   q2wrongText.style.display = "block";
   q2correctText.style.display = "none";
-
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-
   score--;
   updateScoreboard();
 });
@@ -120,14 +102,11 @@ q2wrong1.addEventListener("click", () => {
 q2wrong2.addEventListener("click", () => {
   defaultImage2.src ="wrong.jpg";
   defaultImage2.alt = "wrong image";
-
   q2wrongText.style.display = "block";
   q2correctText.style.display = "none";
-
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-
   score--;
   updateScoreboard();
 });
@@ -149,14 +128,11 @@ q3correctText.style.display = "none";
 q3correct.addEventListener("click", () =>{
   defaultImage3.src="saturn.jpg";
   defaultImage3.alt = "correct image";
-
   q3correctText.style.display = "block";
   q3wrongText.style.display = "none";
-
   correctSound.pause();
   correctSound.currentTime = 0;
   correctSound.play();
-
   score++;
   updateScoreboard();
 });
@@ -164,14 +140,11 @@ q3correct.addEventListener("click", () =>{
 q3wrong1.addEventListener("click", () => {
   defaultImage3.src ="wrong.png";
   defaultImage3.alt = "wrong image";
-
   q3wrongText.style.display = "block";
   q3correctText.style.display = "none";
-
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-
   score--;
   updateScoreboard();
 });
@@ -179,14 +152,11 @@ q3wrong1.addEventListener("click", () => {
 q3wrong2.addEventListener("click", () => {
   defaultImage3.src ="wrong.png";
   defaultImage3.alt = "wrong image";
-
   q3wrongText.style.display = "block";
   q3correctText.style.display = "none";
-
   wrongSound.pause();
   wrongSound.currentTime = 0;
   wrongSound.play();
-
   score--;
   updateScoreboard();
 });
